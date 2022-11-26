@@ -10,8 +10,6 @@ PROGRAMAS_APT=(
 ## Instalando apts ##
 instala_apts(){
 	for programa in ${PROGRAMAS_APT[@]}; do
-		# /if ! apt-cache policy -q $programa &> /dev/null; then
-			sudo apt install $programa -y
-		# fi
+		sudo apt install $programa -y 
 	done
 }

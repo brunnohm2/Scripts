@@ -16,5 +16,5 @@ instala_debs () {
 		wget -c $url -P $DIRETORIO_DE_PROGRAMAS
 	done
 	
-	sudo dpkg -i $DIRETORIO_DE_PROGRAMAS/*.deb}
+	sudo dpkg -i $DIRETORIO_DE_PROGRAMAS/*.deb
 }

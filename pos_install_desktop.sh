@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 ## Removendo travas eventuais do apt ##
 source pos_funcoes_apt.sh
 source pos_funcoes_snap.sh

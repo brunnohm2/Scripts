@@ -19,12 +19,12 @@ atualiza_repositorios(){
 	sudo apt autoremove		
 	sudo apt -f install		
 }
-# remove_travas_apt
-# adiciona_arquitetura_32_bits
-# atualiza_repositorios
+remove_travas_apt
+adiciona_arquitetura_32_bits
+atualiza_repositorios
 
 instala_apts
-# instala_snaps
-# instala_debs
+instala_snaps
+instala_debs
 
-# atualiza_repositorios
+atualiza_repositorios

@@ -6,6 +6,7 @@ PROGRAMAS_APT=(
 	virtualbox	## Cria Maquinas Virtuais
 	vlc			## Codec de videos
 	vim			## Editor de textos
+	copyq		## Gerenciado de area de transferencia
 )
 ## Instalando apts ##
 instala_apts(){

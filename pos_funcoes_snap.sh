@@ -5,6 +5,7 @@ PROGRAMAS_SNAP=(
 	spotify
 	arduino
 	clickup
+	bitwarden
 )
 ## Instalando Snaps ##
 instala_snaps(){

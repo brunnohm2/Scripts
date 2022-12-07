@@ -7,6 +7,8 @@ PROGRAMAS_APT=(
 	vlc			## Codec de videos
 	vim			## Editor de textos
 	copyq		## Gerenciado de area de transferencia
+	flameshot	## Tira Fotos da tela do computador (nao funciona na configuracao de janelas Ubunto Xborg)
+	tldr		## O mesmo man de forma simplificada
 )
 ## Instalando apts ##
 instala_apts(){

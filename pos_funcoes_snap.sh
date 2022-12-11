@@ -12,4 +12,10 @@ instala_snaps(){
 	for programa in ${PROGRAMAS_SNAP[@]}; do
 		sudo snap install $programa
 	done
+
+	## Instalando Espanso espansor de textos##
+	sudo snap install espanso --classic
+	espanso service register
+	espanso start
+
 }
